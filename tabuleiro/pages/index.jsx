@@ -1,4 +1,3 @@
-import Linha from '../componentes/Linha'
 import Tabuleiro from '../componentes/Tabuleiro'
 import styles from '../styles/Home.module.css'
 
