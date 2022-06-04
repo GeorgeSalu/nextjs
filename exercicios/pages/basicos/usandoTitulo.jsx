@@ -9,7 +9,7 @@ export default function usandoTitulo() {
 
             <Titulo 
                 principal="pagina de login"
-                secundario="informe seu eamil e senha"
+                secundario="informe seu email e senha"
                 pequeno={true}/>
         </div>
     )
