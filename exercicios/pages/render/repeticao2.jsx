@@ -2,6 +2,10 @@ import listaProduto from "../../data/listaProduto"
 
 export default function repeticao2() {
 
+    const comBorda = {
+        border: "1px solid #000",
+    }
+
     function renderizarLinhas() {
         return listaProduto.map(produto => {
             return (
@@ -16,7 +20,7 @@ export default function repeticao2() {
 
     return (
         <div>
-            <table>
+            <table style={comBorda}>
                 <thead>
                     <tr>
                         <th>Codigo</th>
