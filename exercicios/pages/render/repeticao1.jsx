@@ -9,19 +9,27 @@ export default function repeticao1() {
         'laura'
     ]
 
-    function renderizarLista() {
-        const items = []
+    function renderLista() {
+        return listaAprovados.map(function(nome, i) {
+            return <li key={i}>{nome}</li>
+        })
+    }    
 
-        for(let i = 0; i < listaAprovados.length; i++) {
-            items.push(<li key={i}>{listaAprovados[i]}</li>)
-        }
-
-        return items
-    }
 
     return (
         <ul>
-            {renderizarLista()}
+            {renderLista()}
         </ul>
     )
+}
+
+
+function renderizarLista() {
+    const items = []
+
+    for(let i = 0; i < listaAprovados.length; i++) {
+        items.push(<li key={i}>{listaAprovados[i]}</li>)
+    }
+
+    return items
 }
