@@ -1,4 +1,5 @@
 import { useState } from "react"
+import ContadorDisplay from "../../components/ContadorDisplay"
 
 export default function contador() {
 
@@ -9,8 +10,7 @@ export default function contador() {
 
     return (
         <div>
-            <h1>Contador</h1>
-            <div>Valor: {numero}</div>
+            <ContadorDisplay numero={numero} />
             <button onClick={inc}>+</button>
             <button onClick={dec}>-</button>
         </div>
