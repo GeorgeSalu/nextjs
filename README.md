@@ -13,3 +13,11 @@ Após isso, o curso vai se focar em diversos projetos que vão fazer integraçã
 • Depois teremos um projeto com foco no FullStack, ou seja, teremos um projeto também com o backend. Iremos trabalhar com construção de api, mexer com arquivos json e trabalhar no visual do projeto também.
 
 • E pra finalizar teremos uma seção onde faremos o deploy das aplicações na nuvem. Estamos entregando neste curso um conteúdo de muito valor, e que pode fazer muita diferença na sua carreira como programador. 
+
+O que você aprenderá
+
+    Next js
+    React js
+    Integração com Tailwind CSS e Typescript
+    Fazer Deploy na Núvem
+    Boas Práticas de Programação e Muito Mais
