@@ -16,8 +16,8 @@ Após isso, o curso vai se focar em diversos projetos que vão fazer integraçã
 
 O que você aprenderá
 
-    Next js
-    React js
-    Integração com Tailwind CSS e Typescript
-    Fazer Deploy na Núvem
-    Boas Práticas de Programação e Muito Mais
+ - Next js
+ - React js
+ - Integração com Tailwind CSS e Typescript
+ - Fazer Deploy na Núvem
+ - Boas Práticas de Programação e Muito Mais
