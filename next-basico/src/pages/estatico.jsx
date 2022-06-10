@@ -6,7 +6,7 @@ export function getStaticProps() {
     }
 }
 
-export default function estatico(props) {
+export default function Estatico(props) {
     return (
         <div>
             <span>Aleatorio : {props.numero}</span>
