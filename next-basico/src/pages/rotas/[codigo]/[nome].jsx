@@ -10,7 +10,7 @@ export default function Buscar() {
     return (
         <div>
             <h1>Rotas / {codigo} / {nome}</h1>
-            <Link href="/rotas">
+            <Link href="/rotas" passHref>
                 <button>voltar</button>
             </Link>
         </div>
