@@ -47,3 +47,17 @@
     border-radius: 10px;
     background-color: brown;
 }
+
+.selecionadda {
+    border-left: 5px solid yellow;
+    border-top: 5px solid yellow;
+    border-right: 5px solid yellow;
+}
+
+.selecionadda .numero {
+    color: yellow;
+}
+
+.selecionadda .macaneta {
+    color: yellow;
+}
