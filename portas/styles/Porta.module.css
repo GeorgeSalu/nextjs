@@ -48,16 +48,16 @@
     background-color: brown;
 }
 
-.selecionadda {
+.selecionada {
     border-left: 5px solid yellow;
     border-top: 5px solid yellow;
     border-right: 5px solid yellow;
 }
 
-.selecionadda .numero {
+.selecionada .numero {
     color: yellow;
 }
 
-.selecionadda .macaneta {
+.selecionada .macaneta {
     color: yellow;
 }
