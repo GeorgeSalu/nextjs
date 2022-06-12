@@ -14,6 +14,7 @@ export default class Porta {
     get numero() {
         return this.#numero
     }
+    
     get temPresente() {
         return this.#temPresente
     }
