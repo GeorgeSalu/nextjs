@@ -19,10 +19,10 @@ export default function Porta(props: PortaProps) {
     function renderizarPorta() {
         return (
             <div className={styles.porta}>
-                    <div className={styles.numero}>{porta.numero}</div>
-                    <div className={styles.macaneta}
-                        onClick={abrir}></div>
-                </div>
+                <div className={styles.numero}>{porta.numero}</div>
+                <div className={styles.macaneta}
+                    onClick={abrir}></div>
+            </div>
         )
     }
     
