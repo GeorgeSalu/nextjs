@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div style={{display: "flex", flexDirection: "column"}}>
       <input type="text" />
-      <Porta value={p1} />
+      <Porta value={p1} onChange={novaPorta => setP1(novaPorta)} />
     </div>
   )
 }
