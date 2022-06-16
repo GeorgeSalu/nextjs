@@ -12,7 +12,6 @@ export default function jogo() {
 
     
     useEffect(() => {
-        
         const portas = +router.query.portas
         const temPresente = +router.query.temPresente
         
@@ -20,8 +19,6 @@ export default function jogo() {
         const temPresenteValido = temPresente >= 1 && temPresente <= portas
         
         setValido(qtdePortasValidas && temPresenteValido)
-        
-        setPortas(criarPortas(portas, temPresente))
     }, [portas])
 
     useEffect(() => {        
