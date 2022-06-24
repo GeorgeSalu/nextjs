@@ -6,7 +6,7 @@ export function getStaticProps() {
     }
 }
 
-export default function Estatic2(props) {
+export default function Estatico2(props) {
     return (
         <div>
             <h1>Estatico #02s</h1>
