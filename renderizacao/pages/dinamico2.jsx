@@ -1,4 +1,4 @@
-export async function getStaticProps() {
+export async function getServerSideProps() {
     console.log('[server] gerando props para o componente')
     const resp = await fetch("http://localhost:3000/api/produto")
     const produtos = await resp.json()
@@ -9,7 +9,7 @@ export async function getStaticProps() {
     }
 }
 
-export default function Estatico4(props) {
+export default function Dinamico2(props) {
     console.log('[cliente] renderizando o componente')
     function renderizarProdutos() {
         return props.produtos.map(produto => {
