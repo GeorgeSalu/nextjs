@@ -1,7 +1,9 @@
+import RespostaModel from "./resposta"
+
 export default class QuestaoModel {
     #id: number
     #enunciado: string
-    #respostas: any[]
+    #respostas: RespostaModel[]
     #acertou: boolean
     // #respondida: boolean
 
@@ -29,7 +31,10 @@ export default class QuestaoModel {
     }
 
     get respondida() {
-        // FIXME: implementar esse metodo
+        for(let resposta of this.#respostas) {
+            if(resposta.revelada) return true
+        }
+        
         return false
     }
 }
