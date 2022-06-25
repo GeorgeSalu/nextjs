@@ -8,7 +8,7 @@ const questoes: QuestaoModel[] = [
     RespostaModel.errada('pulga'),
     RespostaModel.certa('barbeiro')
   ]),
-  new QuestaoModel(306, 'Qual fruto é conhecido no norte e nordeste como jerimum ?', [
+  new QuestaoModel(202, 'Qual fruto é conhecido no norte e nordeste como jerimum ?', [
     RespostaModel.errada('caju'),
     RespostaModel.errada('coco'),
     RespostaModel.errada('chuchu'),
