@@ -39,7 +39,7 @@ export default class QuestaoModel {
     return false
   }
 
-  respoderCom(indice: number): QuestaoModel {
+  responderCom(indice: number): QuestaoModel {
     const acertou = this.#respostas[indice]?.certa
     const respostas = this.#respostas.map((resposta, i) => {
       const respostasSelecionada = indice === i
