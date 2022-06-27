@@ -1,9 +1,22 @@
 .resposta {
   display: flex;
+  align-self: stretch;
+  height: 100px;
+  margin: 10px;
+  background-color: crimson;
+}
+
+.conteudoResposta {
+  position: relative;
+  display: flex;
+  flex: 1;
 }
 
 .frente, .verson {
+  position: absolute;
   display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 .frente {
