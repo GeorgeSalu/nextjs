@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import {  useState } from 'react'
 import Questao from '../componentes/Questao'
 import QuestaoModel from '../model/questao'
 import RespostaModel from '../model/resposta'
@@ -30,7 +30,9 @@ export default function Home() {
       alignItems: 'center',
       height: '100vh'
     }}>
-      <Questao valor={questao} respostaFornecida={respostaFornecida} tempoEsgotado={tempoEsgotado} />
+      <Questao valor={questao}
+              tempoParaResposta={5} 
+              respostaFornecida={respostaFornecida} tempoEsgotado={tempoEsgotado} />
     </div>
   )
 }
