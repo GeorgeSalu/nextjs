@@ -18,7 +18,7 @@ interface QuestaoProps {
 export default function Questao(props: QuestaoProps) {
   const questao = props.valor
 
-  function rederizarRespostas() {
+  function renderizarRespostas() {
     return questao.respostas.map((resposta, i) => {
       return (
         <Resposta 
@@ -36,7 +36,7 @@ export default function Questao(props: QuestaoProps) {
   return (
     <div className={styles.questao}>
       <Enunciado texto={questao.enunciado} />
-      {rederizarRespostas()}
+      {renderizarRespostas()}
     </div>
   )
 }
