@@ -3,12 +3,13 @@ import Questao from '../componentes/Questao'
 import QuestaoModel from '../model/questao'
 import RespostaModel from '../model/resposta'
 
-const questaoMock = new QuestaoModel(1, 'qual é a melhor cor?', [
-  RespostaModel.errada('verde'),
-  RespostaModel.errada('vermelho'),
-  RespostaModel.errada('azul'),
-  RespostaModel.certa('preta'),
+const questaoMock = new QuestaoModel(1, 'Qual é a melhor cor?', [
+  RespostaModel.errada('Verde'),
+  RespostaModel.errada('Vermelho'),
+  RespostaModel.errada('Azul'),
+  RespostaModel.certa('Preta'),
 ])
+
 export default function Home() {
   const [questao, setQuestao] = useState(questaoMock)
 
