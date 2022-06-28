@@ -25,7 +25,8 @@ export default function Home() {
   async function carrgarQuestoes(idQuestoes: number) {
     const resp = await fetch(`${BASE_URL}/questoes/${idQuestoes}`)
     const json = await resp.json()
-    console.log(json)
+    const novaQuestao = QuestaoModel.criarUsandoObjeto(json)
+    setQuestao(novaQuestao)
   }
 
   useEffect(() => {
