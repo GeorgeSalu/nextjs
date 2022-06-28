@@ -15,6 +15,7 @@ const BASE_URL = 'http://localhost:3000/api'
 export default function Home() {
   const [idsDasQuestoes, setIdsDasQuestoes] = useState<number[]>([])
   const [questao, setQuestao] = useState(questaoMock)
+  const [respostasCertas, setRespostasCertas] = useState<number>(0)
 
   async function carrgarIdsDasQuestoes() {
     const resp = await fetch(`${BASE_URL}/questionario`)
@@ -47,8 +48,10 @@ export default function Home() {
     }
   }
 
-  function questaoRespondida(questao: QuestaoModel) {
-
+  function questaoRespondida(questaoRespondida: QuestaoModel) {
+    setQuestao(questaoRespondida)
+    const acertou = questaoRespondida.acertou
+    setRespostasCertas(respostasCertas + (acertou ? 1 : 0))
   }
 
   function irPraProximoPasso() {
