@@ -1,6 +1,4 @@
 import {  useState } from 'react'
-import Botao from '../componentes/Botao'
-import Questao from '../componentes/Questao'
 import Questionario from '../componentes/Questionario'
 import QuestaoModel from '../model/questao'
 import RespostaModel from '../model/resposta'
