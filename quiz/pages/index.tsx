@@ -22,8 +22,8 @@ export default function Home() {
     setIdsDasQuestoes(idsDasQuestoes)
   }
 
-  async function carrgarQuestoes(id: number) {
-    const resp = await fetch(`${BASE_URL}/questoes/${id}`)
+  async function carrgarQuestoes(idQuestoes: number) {
+    const resp = await fetch(`${BASE_URL}/questoes/${idQuestoes}`)
     const json = await resp.json()
     console.log(json)
   }
