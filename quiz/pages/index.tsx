@@ -1,4 +1,5 @@
 import {  useState } from 'react'
+import Botao from '../componentes/Botao'
 import Questao from '../componentes/Questao'
 import QuestaoModel from '../model/questao'
 import RespostaModel from '../model/resposta'
@@ -33,6 +34,8 @@ export default function Home() {
       <Questao valor={questao}
               tempoParaResposta={5} 
               respostaFornecida={respostaFornecida} tempoEsgotado={tempoEsgotado} />
+
+      <Botao texto='Teste botao' href='/resultado'/>
     </div>
   )
 }
