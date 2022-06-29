@@ -1,5 +1,6 @@
 import styles from '../styles/Resultado.module.css'
 import { useRouter } from 'next/router'
+import Estatitica from '../componentes/Estatistica'
 
 export default function Resultado() {
   const router = useRouter()
@@ -10,10 +11,12 @@ export default function Resultado() {
 
   return (
     <div className={styles.resultado}>
-      <h1>Resultado</h1>     
-      <div>{total}</div>
-      <div>{certas}</div>
-      <div>{`${percentural}%`}</div>
+      <h1>Resultado Final</h1>
+      <div style={{ display: "flex" }}>
+        <Estatitica texto="Perguntas" valor={total} />
+        <Estatitica texto="Certas" valor={certas} />
+        <Estatitica texto="Percentual" valor={`${percentural}%`} />
+      </div>
     </div>
   )
 }
