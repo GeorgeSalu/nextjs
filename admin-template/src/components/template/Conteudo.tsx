@@ -1,5 +1,3 @@
-import MenuLateral from "./ManuLateral"
-
 interface ConteudoProps {
   children?: any
 }

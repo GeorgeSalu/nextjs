@@ -1,5 +1,3 @@
-import MenuLateral from "./ManuLateral"
-
 interface TituloProps {
   titulo: string
   subtitulo: string
