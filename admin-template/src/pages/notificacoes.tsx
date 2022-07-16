@@ -6,7 +6,6 @@ export default function Notificacoes() {
 
   return (
     <Layout titulo="Notificacoes" subtitulo="notificacao" >
-
       <h3>{dados.nome}</h3>
     </Layout>
   )
