@@ -6,7 +6,8 @@ export default function Notificacoes() {
 
   return (
     <Layout titulo="Notificacoes" subtitulo="notificacao" >
-      <h3>{dados.nome}</h3>
+      <h3>{dados.tema}</h3>
+      <button onClick={dados.alternarTema} >Click</button>
     </Layout>
   )
 }
